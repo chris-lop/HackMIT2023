@@ -16,6 +16,10 @@ def main():
         if not ret:
             print("Error: Could not read frame")
             break
+        
+
+        # TODO: Frame Analysis for object & text detection
+        
 
         # Display the frame
         cv2.imshow('OpenCV Video Feed', frame)
